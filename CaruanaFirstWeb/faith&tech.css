@@ -1,0 +1,89 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: url(bgTCGC4.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #2c2c2c;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px black;
+}
+
+.header-img {
+    width: 120px;  
+    height: auto;
+}
+
+/* Make the text stack vertically */
+.text-container {
+    display: flex;
+    flex-direction: column;  /* <-- forces h1 on top and p under */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+.body {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: black;
+    margin-top: 0;
+}
+
+/* QUOTE BOX */
+.quote-box {
+    background: #eef2ff;
+    border-left: 5px solid green;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* EXAMPLE BOX */
+.example-box {
+    background: #f4f9ff;
+    border-left: 4px solid green;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+/* LISTS */
+ul {
+    line-height: 1.7;
+}
+
+li strong {
+    color: green;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: darkgreen;
+    margin-top: 50px;
+    font-size: 15px;
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(bgTCGC3.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px black;
+}
+
+.header-img {
+    width: 120px;  
+    height: auto;
+}
+
+/* Make the text stack vertically */
+.container {
+    display: flex;
+    flex-direction: column;  /* <-- forces h1 on top and p under */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+.body {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: black;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+.example-box {
+    background: #eef3ff;
+    border-left: 4px solid green;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: darkgreen;
+    margin-top: 40px;
+}
