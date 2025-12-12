@@ -1,0 +1,32 @@
+body {
+    background: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+
+    /* Laptop/PC default → side by side */
+}
+
+.container img {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* MOBILE VERSION */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;   /* stack vertically */
+        align-items: center;
+    }
+
+    .container img {
+        width: 100%;               /* fit screen */
+    }
+}
